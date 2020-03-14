@@ -1,0 +1,14 @@
+.contact-modal-form {
+  form {
+    display: flex;
+    flex-direction: column;
+
+    .form-input {
+      margin-bottom: 10px;
+    }
+
+    .prefix-form-icon {
+      color: #b8b8b8;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.login-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .valid-login-data {
+    margin-bottom: 100px;
+
+    div {
+      text-align: center;
+    }
+  }
+
+  .form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .antd-input {
+      width: 300px;
+      min-width: 300px;
+      max-width: 300px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.control-panel {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+  .search-input {
+    display: flex;
+    width: calc(100% - 200px);
+    min-width: 200px;
+  }
+}
